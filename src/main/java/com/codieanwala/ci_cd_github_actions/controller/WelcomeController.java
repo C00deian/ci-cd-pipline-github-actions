@@ -8,8 +8,7 @@ public class WelcomeController {
 
     @GetMapping("/welcome")
     public String WelcomePage() {
-        return "Welcome to CI/CD with GitHub Actions!";
-    }
+        return "Welcome to Production! The CI/CD Pipelines is working!";    }
 }
 
 //
